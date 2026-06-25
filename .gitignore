@@ -6,7 +6,8 @@ db/*.sqlite3
 logs/
 logs/*.log
 temp/
-store/
+store/cosmetics.json
+store/emotes.json
 debug/
 .env
 .env.*
