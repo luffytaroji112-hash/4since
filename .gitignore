@@ -1,0 +1,17 @@
+node_modules/
+db/
+logs/
+temp/
+store/
+debug/
+.env
+.env.*
+*.db
+*.sqlite
+*.sqlite3
+*.log
+timelog.txt
+guide.txt
+test_notification.js
+*.bak
+mainbot/Buttons/config/config/config.json
