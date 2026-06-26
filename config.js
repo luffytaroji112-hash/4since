@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const jsonPath = path.join(__dirname, 'config');
+const jsonPath = path.join(__dirname, 'config.json');
 const fileConfig = fs.existsSync(jsonPath) ? JSON.parse(fs.readFileSync(jsonPath, 'utf8')) : {};
 
 const parseList = (val) => {
