@@ -3,7 +3,7 @@ const axios = require('axios');
 const { HttpsProxyAgent } = require('https-proxy-agent'); // ✅ FIXED
 
 module.exports = async function checklocked(email) {
-  const config = require('../../../config.json');
+  const config = require('../../../config');
 
   async function makeRequestWithProxy(retries = 3) {
     const proxies = Array.isArray(config.proxy) ? config.proxy : [config.proxy];

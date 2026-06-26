@@ -2,7 +2,7 @@ const axios = require("axios");
 const { HttpProxyAgent } = require('http-proxy-agent');
 const { HttpsProxyAgent } = require('https-proxy-agent');
 
-const config = require("../../../config.json");
+const config = require("../../../config");
 
 function isValidUrl(urlString) {
     try {

@@ -1,7 +1,7 @@
 const { queryParams } = require("../../../db/database");
 const { ActionRowBuilder, ButtonBuilder, EmbedBuilder } = require("discord.js");
 const dns = require("dns").promises;
-const config = require('../../../config.json');
+const config = require('../../../config');
 
 module.exports = {
     name: "setupdomain",

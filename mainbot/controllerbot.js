@@ -1,7 +1,7 @@
 const { Client, GatewayIntentBits, Partials, Collection } = require("discord.js");
 const discord = require("discord.js");
 const { queryParams } = require("../db/database.js");
-const { tokens } = require("../config.json");
+const { tokens } = require("../config");
 
 const emailHandler = require("./handlers/emailHandler.js");
 const eventHandler = require("./handlers/eventHandler.js");

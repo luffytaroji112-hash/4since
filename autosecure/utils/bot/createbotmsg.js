@@ -4,7 +4,7 @@ const {
   EmbedBuilder
 } = require("discord.js");
 
-const config = require("../../../config.json");
+const config = require("../../../config");
 const { queryParams } = require("../../../db/database");
 const { autosecureMap } = require("../../../mainbot/handlers/botHandler");
 const showbotmsg = require("../bot/showbotmsg");

@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
 const axios = require("axios");
-const config = require('../../../config.json');
+const config = require('../../../config');
 
 const originalConsoleWarn = console.warn;
 const originalConsoleLog = console.log;
@@ -51,7 +51,7 @@ try {
     }
 
     if (proxies.length === 0) {
-        throw new Error('No valid proxies found in config.json');
+        throw new Error('No valid proxies found in config');
     }
     console.log(`Loaded ${proxies.length} proxies from config.json`);
 } catch (err) {
@@ -352,7 +352,7 @@ async function banchecker(username, uuid, ssid, retries = 1) {
         if (!proxy) {
             return {
                 status: 'error',
-                error: 'No proxies configured in config.json',
+                error: 'No proxies configured in config',
                 username,
                 uuid
             };

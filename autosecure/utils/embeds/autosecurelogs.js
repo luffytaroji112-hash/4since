@@ -1,5 +1,5 @@
 const { EmbedBuilder, AttachmentBuilder } = require("discord.js");
-const config = require("../../../config.json");
+const config = require("../../../config");
 const { saveFullConfig } = require("../bot/configutils");
 const { codeblock } = require("../process/helpers");
 const { text } = require("stream/consumers");

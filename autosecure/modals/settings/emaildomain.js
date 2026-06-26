@@ -1,6 +1,6 @@
 const { queryParams } = require("../../../db/database");
 const { EmbedBuilder } = require("discord.js");
-const config = require('../../../config.json');
+const config = require('../../../config');
 const listSettings = require('../../utils/settings/listSettings');
 const listConfiguration = require('../../utils/settings/listConfiguration');
 

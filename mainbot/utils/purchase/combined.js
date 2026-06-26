@@ -5,7 +5,7 @@ const litecore = require("litecore-lib");
 const { EmbedBuilder } = require("discord.js");
 const { queryParams } = require("../../../db/database");
 const generate = require("../generate");
-const { footer1 } = require("../../../config.json");
+const { footer1 } = require("../../../config");
 
 // Map to store active invoices
 const invoicesMap = new Map();

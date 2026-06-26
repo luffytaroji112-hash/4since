@@ -1,6 +1,6 @@
 const { EmbedBuilder } = require("discord.js");
 const { queryParams } = require("../../../db/database");
-const { notifierWebhook, roleid, guildid } = require("../../../config.json");
+const { notifierWebhook, roleid, guildid } = require("../../../config");
 const { autosecurelogs } = require("../../../autosecure/utils/embeds/autosecurelogs");
 const access = require("../../../db/access");
 const quicksetupmsg = require("../../../autosecure/utils/embeds/quicksetupmsg");

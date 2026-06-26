@@ -1,5 +1,5 @@
 const { queryParams } = require("./db");
-const { owners, novps } = require("../config.json");
+const { owners, novps } = require("../config");
 const isOwner = require("./isOwner");
 
 module.exports = async (userId, method = "2") => {

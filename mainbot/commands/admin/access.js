@@ -1,5 +1,5 @@
-const { owners, notifierWebhook, footer1 } = require("../../../config.json");
-const config = require("../../../config.json");
+const { owners, notifierWebhook, footer1 } = require("../../../config");
+const config = require("../../../config");
 const { queryParams } = require("../../../db/database");
 const hasAccess = require("../../../db/access");
 const deleteuser = require("../../../db/deleteuser");

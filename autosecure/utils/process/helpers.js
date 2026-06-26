@@ -1,5 +1,5 @@
 const { queryParams } = require("../../../db/database");
-const config = require("../../../config.json");
+const config = require("../../../config");
 const axios = require("axios");
 const FormData = require("form-data");
 const { faker } = require('@faker-js/faker');

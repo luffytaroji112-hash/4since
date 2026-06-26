@@ -1,9 +1,9 @@
 const access = require("../../../db/access");
 const { queryParams } = require("../../../db/database");
 const { ChannelType, PermissionsBitField, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
-const config = require("../../../config.json");
+const config = require("../../../config");
 const generate = require("../../../autosecure/utils/generate");
-const { roleid, guildid, notifierWebhook } = require("../../../config.json");
+const { roleid, guildid, notifierWebhook } = require("../../../config");
 const axios = require("axios"); 
 const { autosecurelogs } = require("../../../autosecure/utils/embeds/autosecurelogs");
 

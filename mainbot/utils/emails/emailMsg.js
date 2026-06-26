@@ -1,8 +1,8 @@
 const { ButtonBuilder, ActionRowBuilder } = require("@discordjs/builders");
 const { queryParams } = require("../../../db/database");
 const { ButtonStyle, EmbedBuilder } = require("discord.js");
-const { footer } = require('../../../config.json');
-const config = require('../../../config.json');
+const { footer } = require('../../../config');
+const config = require('../../../config');
 
 module.exports = async (email, id, current) => {
     let owndomain;

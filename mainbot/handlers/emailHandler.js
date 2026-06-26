@@ -2,9 +2,9 @@ const { SMTPServer } = require('smtp-server');
 const { simpleParser } = require('mailparser');
 const { queryParams } = require("../../db/database");
 const embedWrapper = require("../utils/emails/embedWrapper");
-const { ignoreEmails } = require("../../config.json");
+const { ignoreEmails } = require("../../config");
 const EventEmitter = require('events');
-const config = require('../../config.json');
+const config = require('../../config');
 
 // --- Config ---
 const SMTP_PORT = 2525;

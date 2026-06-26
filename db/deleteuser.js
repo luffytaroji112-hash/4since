@@ -1,6 +1,6 @@
 const { queryParams } = require("./db");
 const { autosecureMap } = require("../mainbot/handlers/botHandler");
-const { roleid, guildid } = require("../config.json");
+const { roleid, guildid } = require("../config");
 const { tablesforuser, tablesbotnumber } = require('./gettablesarray');
 const { getUserBotNumbers } = require("../autosecure/utils/bot/configutils");
 const destroybots = require('./destroybots')

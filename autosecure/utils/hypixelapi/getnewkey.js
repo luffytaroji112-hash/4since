@@ -1,5 +1,5 @@
 const axios = require('axios');
-const config = require("../../../config.json");
+const config = require("../../../config");
 const { autosecurelogs } = require('../embeds/autosecurelogs');
 const ip = config.vpsip2;
 

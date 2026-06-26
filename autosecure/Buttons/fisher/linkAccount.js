@@ -3,7 +3,7 @@ const modalBuilder = require("../../utils/modalBuilder");
 const { queryParams } = require("../../../db/database");
 const getModal = require("../../utils/responses/getModal");
 const getEmbed = require("../../utils/responses/getEmbed");
-const config = require("../../../config.json")
+const config = require("../../../config")
 const isblacklisted = require("../../../autosecure/utils/utils/isblacklisted")
 
 let linkAccount = {

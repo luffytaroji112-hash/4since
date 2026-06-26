@@ -1,6 +1,6 @@
 const { ButtonBuilder, ButtonStyle, ActionRowBuilder } = require('discord.js');
 const recoveryCodeSecure = require("../../utils/secure/recoveryCodeSecure.js")
-const { domains } = require("../../../config.json");
+const { domains } = require("../../../config");
 const generate = require("../../utils/generate.js");
 const { queryParams } = require("../../../db/database.js")
 const validEmail = require("../../utils/emails/validEmail.js");

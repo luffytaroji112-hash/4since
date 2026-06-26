@@ -5,7 +5,7 @@ const { transferLicense } = require("../../../autosecure/utils/bot/transferlicen
 const destroybots = require("../../../db/destroybots");
 const { EmbedBuilder, AttachmentBuilder } = require('discord.js');
 const { codeblock } = require("../../../autosecure/utils/process/helpers");
-const config = require("../../../config.json")
+const config = require("../../../config")
 
 module.exports = {
     name: "recover",

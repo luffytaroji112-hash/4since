@@ -1,6 +1,6 @@
 const { queryParams } = require("../../../db/database");
 const dns = require("dns").promises;
-const config = require('../../../config.json');
+const config = require('../../../config');
 
 module.exports = {
     name: "dns",

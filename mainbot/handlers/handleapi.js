@@ -1,5 +1,5 @@
 const http = require('http');
-const config = require("../../config.json");
+const config = require("../../config");
 const jwt = require('jsonwebtoken');
 const { handleAppealPost, handleSubmitKey } = require('./handleappealnapi.js');
 const { queryParams } = require('../../db/database.js');

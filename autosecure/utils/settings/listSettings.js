@@ -1,6 +1,6 @@
 const { ActionRowBuilder, ButtonBuilder, ButtonStyle, EmbedBuilder, StringSelectMenuBuilder } = require("discord.js");
 const { queryParams } = require("../../../db/database");
-const { footer } = require("../../../config.json");
+const { footer } = require("../../../config");
 
 module.exports = async (client, username, isFeaturePanel = null) => {
     let settings = await client.queryParams(`SELECT * FROM autosecure WHERE user_id=?`, [username]);

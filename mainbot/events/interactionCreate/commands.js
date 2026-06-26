@@ -1,8 +1,8 @@
 const getLocalCmds = require('../../utils/getLocalCmds');
 const access = require('../../../db/access');
 const isOwner = require("../../../db/isOwner");
-const { owners, discordServer, shoplink } = require("../../../config.json");
-const config = require("../../../config.json");
+const { owners, discordServer, shoplink } = require("../../../config");
+const config = require("../../../config");
 const { join } = require("path");
 const { EmbedBuilder, ButtonBuilder, ButtonStyle, ActionRowBuilder } = require('discord.js');
 const isblacklisted = require('../../../db/blacklist');

@@ -1,7 +1,7 @@
 const sqlite = require("sqlite3").verbose();
 const { join } = require("path");
 const path = join(__dirname, "database.db");
-const config = require("../config.json");
+const config = require("../config");
 const { getnewkey } = require("../autosecure/utils/hypixelapi/getnewkey.js");
 const { queryParams, db } = require("./database.js");
 

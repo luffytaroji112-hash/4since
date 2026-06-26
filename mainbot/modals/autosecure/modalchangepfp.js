@@ -1,6 +1,6 @@
 const editautosecuremsg = require("../../../autosecure/utils/embeds/editautosecuremsg");
 const isUrl = require("../../../autosecure/utils/utils/isUrl");
-const config = require("../../../config.json");
+const config = require("../../../config");
 const { queryParams } = require("../../../db/database");
 
 module.exports = {

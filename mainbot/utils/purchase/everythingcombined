@@ -6,7 +6,7 @@ const litecore = require('bitcore-lib-ltc');
 const { BIP32Factory } = require('bip32');
 const ecc = require('tiny-secp256k1');
 const { queryParams } = require('../../utils/db');
-const { mainltc } = require('../../../config.json');
+const { mainltc } = require('../../../config');
 
 // Initialize bip32 with secp256k1
 const bip32 = BIP32Factory(ecc);

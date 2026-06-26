@@ -5,7 +5,7 @@ const isblacklisted = require('../../../db/blacklist');
 const access = require('../../../db/access');
 const isOwner = require('../../../db/isOwner');
 const userpermissions = require('../../../autosecure/utils/embeds/userpermissions');
-const config = require('../../../config.json'); // Make sure this path is correct
+const config = require('../../../config'); // Make sure this path is correct
 
 module.exports = async (client, interaction) => {
   if (!interaction.isModalSubmit()) return;

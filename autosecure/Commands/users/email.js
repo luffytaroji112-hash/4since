@@ -1,7 +1,7 @@
 const { EmbedBuilder, ApplicationCommandOptionType } = require('discord.js');
 const { queryParams } = require('../../../db/database');
 const validEmail = require('../../../autosecure/utils/emails/validEmail');
-const config = require("../../../config.json");
+const config = require("../../../config");
 const emailMsg = require("../../../autosecure/utils/emails/emailMsg");
 const isOwner = require("../../../db/isOwner");
 

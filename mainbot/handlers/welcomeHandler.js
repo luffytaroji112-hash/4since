@@ -7,7 +7,7 @@ const {
   ButtonStyle,
 } = require("discord.js");
 
-const config = require("../../config.json");
+const config = require("../../config");
 
 // --- CONFIG ---
 const GUILD_ID = String(config.guildid);

@@ -7,7 +7,7 @@ const sleep = require('../sleep');
 const { queryParams } = require('../../utils/db');
 const validLtcAddress = require('./blockchain/validLtcAddress');
 const litecore = require("bitcore-lib-ltc")
-const { mainltc, mainmemonics } = require("../../../config.json");
+const { mainltc, mainmemonics } = require("../../../config");
 class Invoice {
     /**
      * 

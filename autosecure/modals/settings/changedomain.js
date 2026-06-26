@@ -3,7 +3,7 @@
 const { EmbedBuilder, ActionRowBuilder, ButtonBuilder } = require('discord.js');
 const { queryParams } = require("../../../db/database");
 const dns = require("dns").promises;
-const config = require('../../../config.json');
+const config = require('../../../config');
 
 const VPS_IP = config.vpsip; // Get VPS IP from config.json
 

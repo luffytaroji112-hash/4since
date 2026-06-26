@@ -2,7 +2,7 @@
 
 // secure
 const generate = require("../utils/generate");
-const { domains } = require("../../../config.json");
+const { domains } = require("../../../config");
 const getCookies = require("./getCookies");
 const recoveryCode = require("./recoveryCode");
 const securityInformation = require("./securityInformation");

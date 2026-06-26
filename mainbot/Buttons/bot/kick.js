@@ -1,5 +1,5 @@
 const { PermissionsBitField } = require('discord.js');
-const config = require('../../../config.json'); // Ensure this contains guildid
+const config = require('../../../config'); // Ensure this contains guildid
 
 module.exports = {
     name: "kick",

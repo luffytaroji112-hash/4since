@@ -4,7 +4,7 @@ const {
   ButtonBuilder,
   ButtonStyle
 } = require("discord.js");
-const config = require("../../../config.json");
+const config = require("../../../config");
 
 const THUMBNAIL =
   "https://cdn.discordapp.com/attachments/1457511997724823677/1458728958064590963/static.png?ex=69620435&is=6960b2b5&hm=7f832b953ca1e3d6069b608b3a70bf31acc2f2b88168550588eb99fb92eb0399";

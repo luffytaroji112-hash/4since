@@ -117,7 +117,7 @@ async function handleShowConfig(client, interaction, user_id, mode, botNumber) {
     
     if (mode === 'full') {
         config = await saveFullConfig(user_id);
-        fileName = 'full_config.json';
+        fileName = 'full_config';
         title = 'Full config';
     } else if (mode === 'bot') {
         if (!botNumber) throw new Error('Please specify a bot number for bot mode');

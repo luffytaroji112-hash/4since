@@ -1,6 +1,6 @@
 const { Client, EmbedBuilder } = require('discord.js');
 const { queryParams } = require("../../db/database");
-const { footer } = require("../../config.json")
+const { footer } = require("../../config")
 const { ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 const generate = require("../../autosecure/utils/utils/generate");
 

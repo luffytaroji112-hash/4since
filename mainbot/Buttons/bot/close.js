@@ -1,7 +1,7 @@
 const { AttachmentBuilder, EmbedBuilder } = require('discord.js');
 const fs = require('fs');
 const path = require('path');
-const config = require('../../../config.json');
+const config = require('../../../config');
 const { createTranscript } = require('discord-html-transcripts');
 
 module.exports = {

@@ -1,6 +1,6 @@
 const { ActionRowBuilder, ButtonBuilder, ButtonStyle, EmbedBuilder } = require("discord.js");
 const { queryParams } = require("../../../db/database");
-const config = require("../../../config.json");
+const config = require("../../../config");
 const { codeblock } = require("../../../autosecure/utils/process/helpers");
 
 module.exports = {

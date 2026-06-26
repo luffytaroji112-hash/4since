@@ -2,7 +2,7 @@ const { ButtonBuilder, ActionRowBuilder } = require("@discordjs/builders");
 const { StringSelectMenuBuilder } = require("discord.js");
 const { queryParams } = require("../../../db/database");
 const { ButtonStyle } = require("discord.js");
-const { footer } = require('../../../config.json');
+const { footer } = require('../../../config');
 
 module.exports = async (ownerid, current, userid, botnumber) => {
     let embed = {

@@ -2,7 +2,7 @@ require("./logger");
 const { queryParams } = require("./db/database");
 const { initializeController } = require("./mainbot/controllerbot");
 const initializeBots = require("./mainbot/handlers/initializeBots");
-const owners = require("./config.json").owners;
+const owners = require("./config").owners;
 const hasAccess = require("./db/access");
 const pm2 = require("pm2"); 
 const generate = require("./autosecure/utils/generate");

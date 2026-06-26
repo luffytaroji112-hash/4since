@@ -1,5 +1,5 @@
 const { queryParams } = require("../../../db/database");
-const { roleid } = require('../../../config.json'); // Make sure config.json has "roleid": "YOUR_ROLE_ID"
+const { roleid } = require('../../../config'); // Make sure config.json has "roleid": "YOUR_ROLE_ID"
 
 module.exports = {
     name: "sendupdate",

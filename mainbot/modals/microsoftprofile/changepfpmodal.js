@@ -1,7 +1,7 @@
 const isUrl = require("../../../autosecure/utils/utils/isUrl.js");
 const listSettings = require("../../../autosecure/utils/settings/listSettings.js");
 const listConfiguration = require('../../../autosecure/utils/settings/listConfiguration.js');
-const config = require("../../../config.json");
+const config = require("../../../config");
 
 module.exports = {
     name: "changepfp",

@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Load credentials from config.json using a relative path
-const configPath = path.join(__dirname, '../../config.json');
+const configPath = path.join(__dirname, '../../config');
 const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
 const hypixelemail = config.hypixelemail;
 const hypixelpassword = config.hypixelpassword;

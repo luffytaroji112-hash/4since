@@ -1,5 +1,5 @@
 const { Client } = require("discord.js");
-const { tokens } = require("../config.json");
+const { tokens } = require("../config");
 
 let client = null;
 let clientReady = false;
@@ -12,7 +12,7 @@ let usersCache = new Map();
 // Initialize Discord client for user lookups
 async function initClient() {
     if (!tokens || !tokens[0]) {
-        console.error("[USERS_CACHE] No token found in config.json");
+        console.error("[USERS_CACHE] No token found in config");
         return;
     }
     try {

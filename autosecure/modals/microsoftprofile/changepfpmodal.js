@@ -1,7 +1,7 @@
 const isUrl = require('../../utils/utils/isUrl');
 const listConfiguration = require('../../utils/settings/listConfiguration');
 const listSettings = require('../../utils/settings/listSettings');
-const config = require("../../../config.json");
+const config = require("../../../config");
 
 module.exports = {
     name: "changepfp",

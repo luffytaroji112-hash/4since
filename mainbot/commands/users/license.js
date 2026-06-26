@@ -1,6 +1,6 @@
 const { queryParams } = require("../../../db/database");
 const hasAccess = require("../../../db/access");
-const { discordServer, footer1 } = require("../../../config.json");
+const { discordServer, footer1 } = require("../../../config");
 const isOwner = require("../../../db/isOwner");
 
 module.exports = {

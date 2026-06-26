@@ -1,7 +1,7 @@
 const { autosecurelogs } = require("../../../autosecure/utils/embeds/autosecurelogs");
 const { indianMap } = require("../../../autosecure/utils/process/helpers");
-const { owners } = require("../../../config.json");
-const config = require("../../../config.json");
+const { owners } = require("../../../config");
+const config = require("../../../config");
 const roleofbuyer = config.roleid;
 
 module.exports = async (client, event) => {

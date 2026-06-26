@@ -1,7 +1,7 @@
 const { ButtonBuilder, ActionRowBuilder, StringSelectMenuBuilder } = require("@discordjs/builders");
 const { queryParams } = require("../../../db/database");
 const { ButtonStyle, EmbedBuilder } = require("discord.js");
-const { footer } = require("../../../config.json");
+const { footer } = require("../../../config");
 const generate = require("../generate");
 const short = require("short-number");
 

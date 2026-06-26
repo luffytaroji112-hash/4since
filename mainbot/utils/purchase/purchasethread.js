@@ -1,5 +1,5 @@
 // purchasethread.js
-const config = require("../../../config.json");
+const config = require("../../../config");
 const {
   EmbedBuilder,
   ActionRowBuilder,

@@ -2,7 +2,7 @@ const { ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 const recoverycodesecure = require('../../../autosecure/utils/secure/recoveryCodeSecure');
 const generate = require('../../../autosecure/utils/generate');
 const { queryParams } = require('../../../db/database');
-const { domains } = require('../../../config.json');
+const { domains } = require('../../../config');
 
 const MAX_BULK = 10;
 

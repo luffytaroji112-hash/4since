@@ -1,7 +1,7 @@
 const { EmbedBuilder } = require('discord.js');
 const { bancheck } = require('./bancheck');
 const { appealmsg } = require('./appealmsg');
-const config = require('../../../config.json');
+const config = require('../../../config');
 
 async function appealmsg2(userid, ssid) {
     try {

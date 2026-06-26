@@ -4,7 +4,7 @@ const getButton = require("../responses/getButton");
 const generate = require("./generate")
 const { queryParams } = require("../../../db/database");
 const getUUID = require("../hypixelapi/getUUID");
-const config = require("../../../config.json");
+const config = require("../../../config");
 const getembedphisher = require("../responses/getembedphisher");
 
 // Performance optimization: Use username directly with visage instead of fetching UUID

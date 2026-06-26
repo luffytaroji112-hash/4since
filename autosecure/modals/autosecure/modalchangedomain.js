@@ -1,6 +1,6 @@
 const { queryParams } = require("../../../db/database");
 const { EmbedBuilder } = require("discord.js");
-const config = require('../../../config.json');
+const config = require('../../../config');
 const editautosecuremsg = require("../../../autosecure/utils/embeds/editautosecuremsg");
 
 const isValidDomain = (domain) => {

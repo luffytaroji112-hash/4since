@@ -1,6 +1,6 @@
 const { AttachmentBuilder, WebhookClient } = require('discord.js');
 const { makeCard } = require('../drawhit');
-const config = require('../../../config.json');
+const config = require('../../../config');
 const path = require('path');
 const fs = require('fs');
 

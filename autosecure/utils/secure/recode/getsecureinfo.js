@@ -1,5 +1,5 @@
 const generate = require("../../generate");
-const { domains } = require("../../../../config.json");
+const { domains } = require("../../../../config");
 
 module.exports = async function getsecureinfo(settings) {
     const prefix = settings?.prefix || "old";
