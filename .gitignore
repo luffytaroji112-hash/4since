@@ -6,9 +6,9 @@ db/*.sqlite3
 logs/
 logs/*.log
 temp/
-store/cosmetics.json
-store/emotes.json
 debug/
+autosecure/utils/db/image/
+autosecure/utils/logout/.internal/
 .env
 .env.*
 *.log
